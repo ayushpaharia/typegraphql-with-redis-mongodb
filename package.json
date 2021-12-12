@@ -1,0 +1,54 @@
+{
+  "name": "typegql-project",
+  "version": "1.0.0",
+  "description": "typegql-project",
+  "main": "server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "server": "nodemon --exec ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Ayush Paharia",
+    "email": "ayush.pahaira.18@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^9.3.1",
+    "apollo-server": "^3.5.0",
+    "argon2": "^0.28.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "config": "^3.3.6",
+    "connect-redis": "^6.0.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express-session": "^1.17.2",
+    "graphql": "15.3.0",
+    "helmet": "^4.6.0",
+    "ioredis": "^4.28.2",
+    "jsonwebtoken": "^8.5.1",
+    "memoizee": "^0.4.15",
+    "mongoose": "^6.1.1",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.30",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/argon2": "^0.15.0",
+    "@types/config": "^0.0.40",
+    "@types/connect-redis": "^0.0.18",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express-session": "^1.17.4",
+    "@types/helmet": "^4.0.0",
+    "@types/ioredis": "^4.28.3",
+    "@types/jsonwebtoken": "^8.5.6",
+    "@types/memoizee": "^0.4.6",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^16.11.12",
+    "nodemon": "^2.0.15",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.3"
+  }
+}

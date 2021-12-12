@@ -1,0 +1,8 @@
+node_modules
+.env
+default.ts
+yarn-error.log
+yarn.lock
+
+ 
+ 
